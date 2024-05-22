@@ -1,6 +1,5 @@
 import HeaderBox from "@/components/HeaderBox";
 import TotalBalanceBox from "@/components/TotalBalanceBox";
-import { log } from "console";
 
 const Home = () => {
   const loggedIn = { firstName: "Themistoklis" };
