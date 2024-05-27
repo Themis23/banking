@@ -69,7 +69,7 @@ const TransactionsTable = ({ transactions }: TransactionTableProps) => {
               <TableCell
                 className={`pl-2 pr-10 font-semibold ${
                   isDebit || amount[0] === "-"
-                    ? "text-{#f04438]"
+                    ? "text-[#f04438]"
                     : "text-[#039855]"
                 }`}
               >
