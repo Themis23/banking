@@ -5,7 +5,6 @@ import {
   PlaidLinkOptions,
   usePlaidLink,
 } from "react-plaid-link";
-
 import { useRouter } from "next/navigation";
 import {
   createLinkToken,
@@ -59,8 +58,8 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
         </Button>
       ) : variant === "ghost" ? (
         <Button
-          variant="ghost"
           onClick={() => open()}
+          variant="ghost"
           className="plaidlink-ghost"
         >
           <Image
@@ -81,7 +80,9 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
             width={24}
             height={24}
           />
-          <p className="text-[16px] font-semibold text-black-2">Connect bank</p>
+          <p className="text-[16px] font-semibold text-black-2 ">
+            Connect bank
+          </p>
         </Button>
       )}
     </>
